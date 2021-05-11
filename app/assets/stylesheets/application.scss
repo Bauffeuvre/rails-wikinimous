@@ -1,0 +1,43 @@
+// Navbar
+.navbar {
+  background-color: #4b7ae4;
+}
+
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+// Regular
+
+h1 {
+  text-align: center;
+}
+
+// Articles
+
+.article-tile {
+  border: solid 1px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px;
+}
+
+.article-tile a {
+  margin-left: 10px;
+}
+.article-tile p {
+  margin-left: 20px;
+}
+
+// Show
+
+.title-show {
+  width: 800px  ;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
