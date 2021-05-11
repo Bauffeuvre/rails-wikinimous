@@ -1,3 +1,5 @@
+@import "font-awesome";
+
 // Navbar
 .navbar {
   background-color: #4b7ae4;
@@ -35,9 +37,28 @@ h1 {
 
 // Show
 
+.container-show {
+  border: solid 1px;
+  margin: 10px;
+}
+
+.tile-top {
+  width: 800px;
+  text-align: center;
+}
+
 .title-show {
-  width: 800px  ;
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+.fa {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.article-content {
+  font-size: 20px;
+  margin-left: 20px;
 }

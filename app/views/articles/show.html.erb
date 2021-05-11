@@ -1,7 +1,19 @@
-<div class="title-show">
-  <h1><%= @article.title %></h1>
-  <%= link_to "Edit", edit_article_path(@article) %>
-  <%= link_to "Delete", article_path(@article), method: :delete %>
+<div class="container-show">
+  <div class="tile-top">
+    <div class="title-show">
+      <h1><%= @article.title %></h1>
+      <%= link_to edit_article_path(@article) do %>
+      <%= fa_icon "edit" %>
+      <% end %>
+      <%= link_to article_path(@article), method: :delete do %>  
+        <%= fa_icon "trash" %>
+      <% end %>
+    </div>
+  </div>
+  <div class="article-content">
+  <p> <%= @article.content  %> </p>
+    <%= link_to articles_path do %>  
+      <%= fa_icon "home" %>
+    <% end %>
+  </div>
 </div>
-<p> <%= @article.content  %> </p>
-<%= link_to "Back", articles_path %>
